@@ -5,6 +5,7 @@ router.get('/', function (ctx, next) {
 });
 
 router.get('/hello', function (ctx, next) {
+  console.log(ctx)
   ctx.body = 'hello ';
 });
 
