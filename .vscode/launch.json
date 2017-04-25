@@ -9,8 +9,7 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceRoot}/bin/run",
-            // "outFiles": [ "${workspaceRoot}/**/*.js" ]
+            "program": "${workspaceRoot}/bin/run"
         },
         {
             "type": "node",
